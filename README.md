@@ -18,7 +18,7 @@ Confirmed with Fystec TMC2208 steppers, but might work with most of TMC steppers
 ## Quick Guide for installation
 
 Recommend to install [Fluidd](https://docs.fluidd.xyz/).
-below summarizes the flow should be done here after. 
+Below summarizes the flow should be done here after. 
 
 1. Download Fluidd installer
 1. Burn Rapsberry Pi image to SD card provided from above.

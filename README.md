@@ -1,5 +1,6 @@
 # klipper-kossel_linear_plus-skr2
 
+## About this file
 This Klipper printer configuration file is for Anycubic Kossel Linear Plus + SKR2 Boards and modified from following example.
 
 * https://github.com/Klipper3d/klipper/blob/master/config/printer-anycubic-kossel-plus-2017.cfg
@@ -13,3 +14,16 @@ Some of settings are from below Lukas's guide and walterlootk's settings
 Please compile Klipper firmware for stm32f407 series.
 
 Confirmed with Fystec TMC2208 steppers, but might work with most of TMC steppers.
+
+## Quick Guide for installation
+
+Recommend to install [Fluidd](https://docs.fluidd.xyz/).
+Below summarizes the flow should be done here after. 
+
+1. Download Fluidd installer
+1. Burn Rapsberry Pi image to SD card provided from above.
+1. Boot Raspberry Pi and login to the fluidd pi environment over that pi.
+1. Make Klipper firmware on the pi with commmon setting for SKR2 board (no need for printer.cfg at this time).
+1. Transfer the Klipper firmware to your Kossel by SD card.
+1. Then add printer.cfg throguh Fluidd web interface.
+1. After rebooting firmware and Klipper, your Kossel shall be fully controllable from Fluidd UI.

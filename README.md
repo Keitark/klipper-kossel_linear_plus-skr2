@@ -39,8 +39,8 @@ Below summarizes the flow should be done here after.
 ## Brief memo for calibration
 
 Please read through https://www.klipper3d.org/Delta_Calibrate.html
+IMHO,the manual calibration might be a first choise, if you are not familiar with each of parameters like me.
 
-My conclusion is that "Forget the probe, just calibrate manually." 
 ```
 G28
 DELTA_CALIBRATE METHOD=manual

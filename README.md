@@ -52,6 +52,9 @@ Then, do not forget to store.
 SAVE_CONFIG
 ```
 
+## Known issue
+
+CANCEL_PRINT semms to not working at this time.
 
 
 
